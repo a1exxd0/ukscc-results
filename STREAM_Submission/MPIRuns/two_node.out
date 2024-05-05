@@ -1,0 +1,41 @@
+Loading compilers/armclang/24.04
+  Loading requirement: binutils/13.2.0 acfl/24.04
+-------------------------------------------------------------
+STREAM version $Revision: 1.8 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Total Aggregate Array size = 2000000000 (elements)
+Total Aggregate Memory per array = 15258.8 MiB (= 14.9 GiB).
+Total Aggregate memory required = 45776.4 MiB (= 44.7 GiB).
+Data is distributed across 32 MPI ranks
+   Array size per MPI rank = 62500000 (elements)
+   Memory per array per MPI rank = 476.8 MiB (= 0.5 GiB).
+   Total memory per MPI rank = 1430.5 MiB (= 1.4 GiB).
+-------------------------------------------------------------
+Each kernel will be executed 100 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+The SCALAR value used for this run is 0.420000
+-------------------------------------------------------------
+Number of Threads requested for each MPI rank = 1
+Number of Threads counted for rank 0 = 1
+-------------------------------------------------------------
+Your timer granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 102015 microseconds.
+   (= 102015 timer ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 timer ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:         436567.5     0.078043     0.073299     0.260003
+Scale:        437137.7     0.078513     0.073203     0.300000
+Add:          411498.6     0.123638     0.116647     0.389433
+Triad:        411671.9     0.120461     0.116598     0.300004
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------

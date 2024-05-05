@@ -1,0 +1,26 @@
+Loading compilers/armclang/24.04
+  Loading requirement: binutils/13.2.0 acfl/24.04
+Trying to achieve equal edge distribution across processes.
+
+-------------------------------------------------------
+Graph edge distribution characteristics
+-------------------------------------------------------
+Number of vertices: 1632803
+Number of edges: 30622564
+Maximum number of edges: 10207555
+Average number of edges: 1.02075e+07
+Expected value of X^2: 1.04193e+14
+Variance: 1186.88
+Standard deviation: 34.4511
+-------------------------------------------------------
+Time to read input file and create distributed graph (in s): 0.191977
+-------------------------------------------------------
+File: /home/efarrell/UKSCC/ukscc-team-4/MiniVite/build/miniVite/soc-Pokec.bin
+-------------------------------------------------------
+-------------------------------------------------------
+64-bit datatype
+-------------------------------------------------------
+Average total time (in s), #Processes: 14.2057, 3
+Modularity, #Iterations: 0.577765, 15
+MODS (final modularity * average time): 8.20757
+-------------------------------------------------------

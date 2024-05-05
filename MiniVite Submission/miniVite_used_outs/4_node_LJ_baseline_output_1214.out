@@ -1,0 +1,25 @@
+Loading compilers/armclang/24.04
+  Loading requirement: binutils/13.2.0 acfl/24.04
+
+-------------------------------------------------------
+Graph edge distribution characteristics
+-------------------------------------------------------
+Number of vertices: 3997962
+Number of edges: 69362378
+Maximum number of edges: 41876709
+Average number of edges: 1.73406e+07
+Expected value of X^2: 5.19973e+14
+Variance: 2.19276e+14
+Standard deviation: 1.4808e+07
+-------------------------------------------------------
+Time to read input file and create distributed graph (in s): 0.450862
+-------------------------------------------------------
+File: /home/efarrell/UKSCC/ukscc-team-4/MiniVite/build/miniVite/com-LiveJournal.bin
+-------------------------------------------------------
+-------------------------------------------------------
+64-bit datatype
+-------------------------------------------------------
+Average total time (in s), #Processes: 371.826, 4
+Modularity, #Iterations: 0.642421, 87
+MODS (final modularity * average time): 238.869
+-------------------------------------------------------
